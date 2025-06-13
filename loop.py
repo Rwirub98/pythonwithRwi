@@ -1,13 +1,13 @@
 ## for loop
-# name='rwirub'
-# for i in name:
-#   print(i)
+name='rwirub'
+for i in name:
+  print(i)
   
-# fruits=['apple', 'mango','banana','strawberry']
-# for fruit in fruits:
-#   print(fruit)
-# for i in fruit:
-#   print(i)  
+fruits=['apple', 'mango','banana','strawberry']
+for fruit in fruits:
+  print(fruit)
+for i in fruit:
+  print(i)  
   
  ##range
  
