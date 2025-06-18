@@ -27,13 +27,16 @@
 
 ## exercise
 import time
-timestamp=int(time.strftime('%H'))
-print(timestamp)
-if(timestamp>=11):
+t=time.strftime('%H:%M:%S')
+hour=int(time.strftime('%H'))
+# print(timestamp)
+if(hour>=0 and hour<12):
   print('goodMoring sir')
-elif(timestamp>=15):
+elif(hour<=12 and hour<16):
   print('goodAfternoon sir')
-elif(timestamp>=19):
+elif(hour>=17 and hour<23):
   print('goodEvening sir')
-else:'goodNight sir'    
+else:
+  print('good night sir')
+   
 
